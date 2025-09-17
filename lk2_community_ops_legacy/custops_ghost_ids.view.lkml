@@ -1,6 +1,6 @@
 view: custops_ghost_ids {
   derived_table: {
-    interval_trigger: "24 hours"
+    # interval_trigger: "24 hours"
     sql:
 
     SELECT

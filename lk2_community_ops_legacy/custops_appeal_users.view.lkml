@@ -1,6 +1,6 @@
 view: custops_appeal_users {
  derived_table: {
-  interval_trigger: "24 hours"
+  # interval_trigger: "24 hours"
   sql:
 
 SELECT
