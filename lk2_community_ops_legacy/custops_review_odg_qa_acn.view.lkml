@@ -51,7 +51,7 @@ view: custops_review_odg_qa_acn {
         )
        ;;
 
-      persist_for: "12 hours"
+      # persist_for: "12 hours"
     }
 
 #####################

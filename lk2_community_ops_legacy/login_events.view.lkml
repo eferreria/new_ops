@@ -5,7 +5,7 @@ view: login_events {
     sql: SELECT app_login, reachability, ghost_user_id, event_date_hour_last_millis
     FROM TABLE_DATE_RANGE([sc-portal:quest.app_app_login_user_], TIMESTAMP('20220201'),TIMESTAMP(CURRENT_DATE())) ;;
 
-   persist_for: "48 hours"
+  # persist_for: "48 hours"
   }
 
   #february onwards

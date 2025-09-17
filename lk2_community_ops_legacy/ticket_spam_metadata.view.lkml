@@ -24,7 +24,7 @@ view: ticket_spam_metadata {
         GROUP BY 1,2
 
       ;;
-    persist_for: "24 hours"
+    # persist_for: "24 hours"
 
   }
 

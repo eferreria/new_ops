@@ -70,7 +70,7 @@ FROM (
     1,2,3
           ;;
 
-    persist_for: "48 hours"
+    # persist_for: "48 hours"
   }
 
   # derived_table: {

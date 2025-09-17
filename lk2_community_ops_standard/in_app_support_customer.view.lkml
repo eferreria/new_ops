@@ -72,7 +72,7 @@ view: in_app_support_customer {
           REPLACE(CAST({% date_start date_filter %} AS STRING), "-","") and
           REPLACE(CAST({% date_end date_filter %} AS STRING), "-",""))
       ;;
-    persist_for: "24 hours"
+    # persist_for: "24 hours"
   }
 
 

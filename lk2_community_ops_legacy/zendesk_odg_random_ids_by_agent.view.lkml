@@ -57,7 +57,7 @@ view: zendesk_odg_random_ids_by_agent {
             ))
        ;;
 
-      persist_for: "1 hour"
+      # persist_for: "1 hour"
     }
 
     measure: count {
